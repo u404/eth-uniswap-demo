@@ -1,0 +1,17 @@
+{
+  "name": "eth-uniswap-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "eth-to-dai-mjs": "node --experimental-json-modules ./EthToDaiRinkeby.mjs",
+    "eth-to-dai": "node ./EthToDaiRinkeby.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MI-2022\\张光辉",
+  "license": "ISC",
+  "dependencies": {
+    "ethereumjs-tx": "1.3.7",
+    "web3": "1.2.1"
+  }
+}
